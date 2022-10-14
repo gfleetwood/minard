@@ -42,7 +42,7 @@ server <- function(input, output) {
       geom_point(
         aes(
           color = "red", 
-          text = paste("Median Income: ", format(median_income, big.mark = ",", scientific = F))
+          text = paste("Name:", NAME, "\nMedian Income: ", format(median_income, big.mark = ",", scientific = F))
           )
         ) +
       theme_bw() +
